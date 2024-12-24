@@ -11,26 +11,26 @@ Contains data on cooking sessions, including session ratings, meal types, and se
 #### OrderDetails: 
 Contains information about the orders placed by users, including dish names, order dates, and ratings.
 ## Steps Taken in the Analysis
-1. Data Cleaning
-Missing Values: Missing values were identified and rows with missing data were removed.
-Duplicates: Duplicate rows were identified and removed.
-Data Type Consistency: Date columns were converted to the appropriate datetime format.
-2. Data Merging
+### 1. Data Cleaning
+#### Missing Values: Missing values were identified and rows with missing data were removed.
+#### Duplicates: Duplicate rows were identified and removed.
+#### Data Type Consistency: Date columns were converted to the appropriate datetime format.
+### 2. Data Merging
 The datasets were merged on common columns to create a unified dataset containing:
 
-User details
-Cooking session information
-Order details
-3. Analysis
-Relationship Between Cooking Sessions and Orders: Analyzed the average session rating and order rating for each dish.
-Popular Dishes: Identified the most ordered dishes.
-Demographic Analysis: Investigated order preferences based on age and favorite meal type.
-4. Visualizations
+User details,
+Cooking session information,
+Order details.
+### 3. Analysis
+##### Relationship Between Cooking Sessions and Orders: Analyzed the average session rating and order rating for each dish.
+##### Popular Dishes: Identified the most ordered dishes.
+##### Demographic Analysis: Investigated order preferences based on age and favorite meal type.
+### 4. Visualizations
 The following visualizations were created:
 
-Popular Dishes: A bar plot showing the most ordered dishes.
-Session Rating vs. Order Rating: A scatter plot showing the relationship between session ratings and order ratings.
-Demographic Analysis: A heatmap showing the number of orders by age and favorite meal type.
+##### Popular Dishes: A bar plot showing the most ordered dishes.
+##### Session Rating vs. Order Rating: A scatter plot showing the relationship between session ratings and order ratings.
+##### Demographic Analysis: A heatmap showing the number of orders by age and favorite meal type.
 ## Insights and Recommendations
 #### Insights:
 The most popular dish based on order count.
